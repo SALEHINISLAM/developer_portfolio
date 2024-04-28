@@ -141,19 +141,70 @@ header{
     display: flex;
     justify-content: space-between;
     text-align: left;
+    /* flex-direction: row; */
     /* align-content: start; */
 }
 .what-section{
     box-shadow: 10px 10px 10px 10px #47474716;
-    width: 265px;
-    height: 375px;
+    width: 215px;
+    height: 300px;
     padding: 31px;
     background-color: #fff;
-    margin: 12px;
+    margin: 25px;
     border-radius: 5px;
 }
 .what img{
     width: 44px;
     height: 44px;
     margin-bottom: 31px;
+}
+
+.resume{
+    margin: 130px 230px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    align-self: center;
+}
+
+.eduex{
+    display: flex;
+    justify-content: space-around;
+}
+
+hr{
+    width: 560px;
+    color: #D1D1D1;
+    height: 1px;
+    margin-top: 5px;
+}
+.education{
+    margin: 10px 5px 20px 0px;
+}
+footer{
+    background-color: #FFF8F3;
+    padding: 130px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+label{
+    display: block;
+    margin: 12px 0px;
+    font-size: 16px;
+}
+#name,#mail{
+    padding: 18px;
+    width: 481px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+}
+textarea{
+    padding: 18px;
+    width: 481px;
+    height: 110px;
+    border: 0;
+    border-radius: 5px;
 }
