@@ -54,6 +54,10 @@ nav a{
 /* header related */
 header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    /* background-image: url('../images/developer.png'); */
 }
 .banner{
     padding:0 30px 0 230px;
@@ -66,17 +70,20 @@ header{
     align-items: first baseline;
     font-weight: 600;
     color: #474747;
+    margin-bottom: 20px;
 }
 .mary{
     font-size: 85px;
     font-weight: bold;
     align-items: first baseline;
     color: #181818;
+    margin-bottom: 5px;
 }
 .headerpara{
     color: #757575;
     font-size: 18px;
     line-height: 30px;
+    margin-bottom: 20px;
 }
 .btn-down{
     font-size: 20px;
@@ -85,7 +92,68 @@ header{
     padding: 18px 36px 18px 36px;
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
+    margin-left: 30px;
 }
 .hardy{
     width: 584px;
+}
+.about{
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+    border-radius: 10px;
+    margin: 130px 230px;
+    align-items: center;
+    text-align: center;
+}
+.about-title{
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #181818;
+}
+.about-des{
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #757575;
+}
+.about-section{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.what{
+    text-align: center;
+    margin: 0 230px;
+}
+.what-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.what-des{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.wsection{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    /* align-content: start; */
+}
+.what-section{
+    box-shadow: 10px 10px 10px 10px #47474716;
+    width: 265px;
+    height: 375px;
+    padding: 31px;
+    background-color: #fff;
+    margin: 12px;
+    border-radius: 5px;
+}
+.what img{
+    width: 44px;
+    height: 44px;
+    margin-bottom: 31px;
 }
