@@ -6,20 +6,19 @@ body{
 nav{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 50px 200px;
 }
 nav>ul{
     display: flex;
     align-items: center;
 }
 nav>h3{
-    margin-top: 51px;
     font-size: 45px;
-    /* margin-left: 226px; */
     text-shadow:1px 1px #474747;
 }
 nav li{
     list-style: none;
-    margin-top: 68px;   
     margin-right: 51px;
     font-size: 20px;
 }
@@ -38,13 +37,55 @@ nav a{
 .btn-primary{
     background-color: #FD6E0A;
     border-radius: 5px;
-    height: 64px;
-    width: 150px;
+    /* height: 64px;*/
+    /* width: 150px;  */
     border: 0px;
     padding: 18px 36px 18px 36px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    white-space: nowrap;
 }
 #white{
     color: #fff;
     font-weight: bold;
     font-size: 20px;
+}
+/* header related */
+header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding:0 30px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hi{
+    font-size: 45px;
+    align-items: first baseline;
+    font-weight: 600;
+    color: #474747;
+}
+.mary{
+    font-size: 85px;
+    font-weight: bold;
+    align-items: first baseline;
+    color: #181818;
+}
+.headerpara{
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+}
+.btn-down{
+    font-size: 20px;
+    background-color: #FFF8F3;
+    border-radius: 5px;
+    padding: 18px 36px 18px 36px;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+.hardy{
+    width: 584px;
 }
