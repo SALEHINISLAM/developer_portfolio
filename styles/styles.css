@@ -193,6 +193,7 @@ label{
     display: block;
     margin: 12px 0px;
     font-size: 16px;
+    color: #757575;
 }
 #name,#mail{
     padding: 18px;
@@ -207,4 +208,6 @@ textarea{
     height: 110px;
     border: 0;
     border-radius: 5px;
+    color: #757575;
+    font-size: 16px
 }
